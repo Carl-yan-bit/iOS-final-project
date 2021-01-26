@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s6b-fy-Ttd">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--垃圾分类-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RefuseClassification" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="YoH-wr-oQ4">
+                                <rect key="frame" x="58" y="299" width="299" height="299"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="299" id="cqm-aE-oVf"/>
+                                    <constraint firstAttribute="height" constant="299" id="g4E-ps-CeD"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="垃圾分类结果" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arH-1i-ydS">
+                                <rect key="frame" x="130" y="691" width="154" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="YoH-wr-oQ4" secondAttribute="bottom" constant="36" id="3g9-Tk-UeF"/>
+                            <constraint firstItem="arH-1i-ydS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="298" id="9Xe-XA-8cQ"/>
+                            <constraint firstItem="arH-1i-ydS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="355" id="Dg9-fa-IMT"/>
+                            <constraint firstItem="YoH-wr-oQ4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="211" id="Dgw-dq-210"/>
+                            <constraint firstItem="arH-1i-ydS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="327" id="FMD-ie-QEw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="arH-1i-ydS" secondAttribute="bottom" constant="17" id="HxA-av-fEG"/>
+                            <constraint firstItem="YoH-wr-oQ4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="255" id="KBc-iU-dXJ"/>
+                            <constraint firstItem="YoH-wr-oQ4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58" id="KVk-4a-4Td"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="arH-1i-ydS" secondAttribute="trailing" constant="130" id="MwT-tr-LyN"/>
+                            <constraint firstItem="YoH-wr-oQ4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="14" id="V19-bq-yZ5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="arH-1i-ydS" secondAttribute="bottom" constant="16" id="WPv-xi-PrG"/>
+                            <constraint firstItem="arH-1i-ydS" firstAttribute="top" secondItem="YoH-wr-oQ4" secondAttribute="bottom" constant="202" id="WX1-q5-pRh"/>
+                            <constraint firstItem="arH-1i-ydS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="130" id="aOc-xk-VPz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="arH-1i-ydS" secondAttribute="bottom" constant="142" id="js9-V1-41V"/>
+                            <constraint firstItem="arH-1i-ydS" firstAttribute="top" secondItem="YoH-wr-oQ4" secondAttribute="bottom" constant="93" id="nYd-QZ-SFg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="arH-1i-ydS" secondAttribute="trailing" constant="327" id="rgj-hr-tg9"/>
+                            <constraint firstItem="arH-1i-ydS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="299" id="uts-MW-HAp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YoH-wr-oQ4" secondAttribute="trailing" constant="254" id="woi-rx-bDz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YoH-wr-oQ4" secondAttribute="trailing" constant="57" id="zkG-Zw-uSA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3g9-Tk-UeF"/>
+                                <exclude reference="HxA-av-fEG"/>
+                                <exclude reference="MwT-tr-LyN"/>
+                                <exclude reference="WPv-xi-PrG"/>
+                                <exclude reference="js9-V1-41V"/>
+                                <exclude reference="rgj-hr-tg9"/>
+                                <exclude reference="woi-rx-bDz"/>
+                                <exclude reference="zkG-Zw-uSA"/>
+                                <exclude reference="Dgw-dq-210"/>
+                                <exclude reference="KBc-iU-dXJ"/>
+                                <exclude reference="KVk-4a-4Td"/>
+                                <exclude reference="V19-bq-yZ5"/>
+                                <exclude reference="9Xe-XA-8cQ"/>
+                                <exclude reference="Dg9-fa-IMT"/>
+                                <exclude reference="FMD-ie-QEw"/>
+                                <exclude reference="WX1-q5-pRh"/>
+                                <exclude reference="aOc-xk-VPz"/>
+                                <exclude reference="nYd-QZ-SFg"/>
+                                <exclude reference="uts-MW-HAp"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="3g9-Tk-UeF"/>
+                                <include reference="HxA-av-fEG"/>
+                                <exclude reference="WPv-xi-PrG"/>
+                                <include reference="rgj-hr-tg9"/>
+                                <include reference="woi-rx-bDz"/>
+                                <include reference="KBc-iU-dXJ"/>
+                                <include reference="V19-bq-yZ5"/>
+                                <include reference="9Xe-XA-8cQ"/>
+                                <exclude reference="Dg9-fa-IMT"/>
+                                <include reference="FMD-ie-QEw"/>
+                                <exclude reference="uts-MW-HAp"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="MwT-tr-LyN"/>
+                                <include reference="js9-V1-41V"/>
+                                <include reference="zkG-Zw-uSA"/>
+                                <include reference="Dgw-dq-210"/>
+                                <include reference="KVk-4a-4Td"/>
+                                <include reference="WX1-q5-pRh"/>
+                                <include reference="aOc-xk-VPz"/>
+                                <include reference="nYd-QZ-SFg"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="垃圾分类" id="MGH-1j-8Sy">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="camera" id="JOe-5c-doW">
+                            <connections>
+                                <action selector="camera:" destination="BYZ-38-t0r" id="eN4-DI-JUD"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="相册" style="plain" id="Yfq-18-Kse">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="BI1-AX-FtQ">
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="相册"/>
+                                <connections>
+                                    <action selector="openLibrary:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fGj-SR-lkF"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="classifier" destination="arH-1i-ydS" id="RrU-nQ-uda"/>
+                        <outlet property="imageView" destination="YoH-wr-oQ4" id="rkG-SD-6zW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1033.2589285714284" y="136.23188405797103"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="myR-va-Ug4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="s6b-fy-Ttd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DWa-IU-lJV">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="hiG-KJ-vYL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mCM-jc-A37" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="124.6376811594203" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Image" width="948" height="676"/>
+    </resources>
+</document>

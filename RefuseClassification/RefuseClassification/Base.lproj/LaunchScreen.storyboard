@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="垃圾分类logo(120).png" translatesAutoresizingMaskIntoConstraints="NO" id="7u7-UQ-NAx">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="7u7-UQ-NAx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="143" id="Bte-Od-vUx"/>
+                            <constraint firstItem="7u7-UQ-NAx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="340" id="GuI-my-8fx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7u7-UQ-NAx" secondAttribute="trailing" constant="284" id="HcX-To-Oyb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7u7-UQ-NAx" secondAttribute="bottom" constant="122" id="VB5-Xg-21f"/>
+                            <constraint firstItem="7u7-UQ-NAx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="284" id="c5j-Xa-P3N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7u7-UQ-NAx" secondAttribute="trailing" constant="87" id="dkN-Zx-t0Y"/>
+                            <constraint firstItem="7u7-UQ-NAx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="uTe-1J-p9R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7u7-UQ-NAx" secondAttribute="bottom" constant="350" id="vX8-yh-UIS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="HcX-To-Oyb"/>
+                                <exclude reference="VB5-Xg-21f"/>
+                                <exclude reference="dkN-Zx-t0Y"/>
+                                <exclude reference="vX8-yh-UIS"/>
+                                <exclude reference="Bte-Od-vUx"/>
+                                <exclude reference="GuI-my-8fx"/>
+                                <exclude reference="c5j-Xa-P3N"/>
+                                <exclude reference="uTe-1J-p9R"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="HcX-To-Oyb"/>
+                                <include reference="VB5-Xg-21f"/>
+                                <include reference="Bte-Od-vUx"/>
+                                <include reference="c5j-Xa-P3N"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="dkN-Zx-t0Y"/>
+                                <include reference="vX8-yh-UIS"/>
+                                <include reference="GuI-my-8fx"/>
+                                <include reference="uTe-1J-p9R"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="垃圾分类logo(120).png" width="28.799999237060547" height="28.799999237060547"/>
+    </resources>
+</document>
